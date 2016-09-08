@@ -1,15 +1,18 @@
 # dockvimx
-Development environment usable on windows (x windows) with vim on ubuntu through a Docker image and Vagrant.
+Development environment usable on windows (x windows) with vim on ubuntu through a Docker image and Vagrant with automated setup.
+
 Currently just experimental, it will probably change.
-Based on [yavide](https://github.com/JBakamovic/yavide), this repository contains automated setup of a development environment in vim.
+
+The cpp folder is based on [yavide](https://github.com/JBakamovic/yavide). There is also a folder with spf13.
 
 ## Features
 * Docker image/Dockerfile to set up development environment
 * Vagrantfile usable to build and run docker image
-* VIM based on [yavide](https://github.com/JBakamovic/yavide)
+* VIM based on [yavide](https://github.com/JBakamovic/yavide) and [spf13](http://vim.spf13.com/)
 * Tmux and tmuxp with example setup "cpp"
 
 ## Installation
+Install [Vagrant](https://www.vagrantup.com/) and [Xming](https://sourceforge.net/projects/xming/)
 ```bash
 git clone https://github.com/gvatn/dockvimx.git
 cd dockvimx
