@@ -1,4 +1,4 @@
  #!/bin/bash
- cd /vagrant/cppdev
- docker build -t cppdev .
+ cd /vagrant/neovim
+ docker build -t neovim .
  source run-docker.sh bash -l

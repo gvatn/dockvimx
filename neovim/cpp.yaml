@@ -5,6 +5,5 @@ windows:
   panes:
     - focus: true
       shell_command:
-        - yavide
+        - nvim
     - pane
-    
