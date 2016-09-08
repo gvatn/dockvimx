@@ -10,7 +10,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-set encoding=utf-8
+" Neovim by default uses utf-8
+" set encoding=utf-8
 set number
 
 " Plugins
@@ -18,12 +19,15 @@ call plug#begin('~/.vim/plugged')
 
 " General
 Plug 'scrooloose/nerdtree'
-Plug 'junegunn/fzf'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'benekastah/neomake'
 Plug 'Shougo/deoplete.nvim'
 Plug 'Raimondi/delimitMate'
 Plug 'altercation/vim-colors-solarized'
 Plug 'ervandew/supertab'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
